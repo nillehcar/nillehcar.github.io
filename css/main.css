@@ -138,6 +138,30 @@ a:-webkit-any-link {
   
 }
 
+.graphic {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.graphic figcaption {
+  text-align: center;
+  background-color: rgba(0,0,0,0.7);
+  font-size: 13px;
+  color: #fff;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  position: absolute;
+  bottom: -7em;
+  width: 100%;
+  transition: all 350ms linear;
+}
+
+.graphic:hover figcaption {
+  bottom: .25rem;
+}
+
 /* Projects */
 
 .projects {
