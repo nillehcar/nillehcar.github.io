@@ -14,6 +14,10 @@ html {
   background-color: #FFF;
 }
 
+a:-webkit-any-link {
+    text-decoration: none !important;
+}
+
 .img-flex {
   width: 100%;
 }
@@ -168,18 +172,7 @@ html {
 }
 
 /* Contact */
-#about {
-	height: auto;
-  width: 100%;
-  background-color: #242424;
-  background: ;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-#aboutfill {
+#contact {
     background-color: #DBDBDB;
     height: auto;
     width: 100%;
@@ -243,10 +236,6 @@ html {
 	position: relative;
 	top: -35px;
 }
-
-a:-webkit-any-link {
-    text-decoration: none !important;
-}
     
 #footer {
   height: auto;
@@ -283,7 +272,7 @@ a:-webkit-any-link {
   text-decoration: none;
   height: 61px;
   width: 38px;
-  background: transparent url("images/logo-wireframe.svg") no-repeat left top;
+  background: red;
   margin-top: -45px;
   }
 
@@ -325,10 +314,10 @@ a:-webkit-any-link {
   opacity: 0.6;
   text-indent: -9999px;
   overflow: hidden;
-  top: 0;
+  top: 42%;
   bottom: 0;
-  left: 0;
-  background: transparent ("images/logo-wireframe.svg") no-repeat left 50%;
+  left: 10px;
+  content: url("../images/logo-wireframe.svg"); no-repeat left 50%;
   width: 38px;
   }
 
@@ -338,8 +327,7 @@ a:-webkit-any-link {
 
 .large-btns_nav.next {
   left: auto;
-  background-position: right 50%;
-  right: 0;
+  right: 10px;
   }
 
 .centered-btns_nav:focus,
@@ -436,7 +424,6 @@ a:-webkit-any-link {
         height: auto;
         float: none;
         padding: 10px 25px 25px 25px;
-        margin: -44px 0 0 0;
     }
 
 }
@@ -468,7 +455,6 @@ a:-webkit-any-link {
         height: auto;
         float: none;
         padding: 10px 25px 75px 25px;
-        margin: -44px 0 0 0;
     }
 
     
