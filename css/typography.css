@@ -30,13 +30,12 @@ h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl, dd, figure,
 blockquote, details, hr,
 fieldset, pre, table {
-  margin: 0 0 1.5rem;
+  margin: 0 0 1rem;
 }
 
 p {
   font-size: 11px;
   line-height: 22px;
-  text-align: justify;
 }
 
 .yotta {
@@ -88,6 +87,10 @@ small, .milli {
   text-transform: uppercase;
 }
 
+.lower {
+  text-transform: lowercase;
+}
+
 .micro {
   font-size: 0.7901rem;
   line-height: 1.8984;
@@ -103,4 +106,8 @@ small, .milli {
 
 .text-center {
   text-align: center;
+}
+
+.justify {
+  text-align: justify;
 }

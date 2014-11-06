@@ -25,7 +25,7 @@ html {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: -4rem;
+  margin-bottom: 1rem;
   padding-top: 1rem;
 }
 
@@ -34,11 +34,11 @@ html {
   padding: 0;
 }
 
-@media only screen and (min-width: 45em) {
+@media only screen and (min-width: 50em) {
   .logo {
     width: 6.5em;
     margin-right: 0;
-    margin-top: -1.5rem;
+    margin-top: -2rem;
     float: left;
     padding-left: 16%;
   }
@@ -58,7 +58,7 @@ html {
 }
 
 
-@media only screen and (min-width: 45em) {
+@media only screen and (min-width: 50em) {
   .nav-list {
     float: right;
     margin-right: 15%;
@@ -111,7 +111,6 @@ html {
   .grid {
     width: 70%;
     margin-left: 15%;
-    padding-top: 2rem;
   }
 
   .unit-m-1-2 {
@@ -137,7 +136,7 @@ html {
 
 /* Projects */
 
-#projects {
+.projects {
 	width: 100%;
   height: auto;
   padding: 10px 0 75px 0;
@@ -154,13 +153,13 @@ html {
     padding: 75px 0 0 0 !important;
 }
 
-#ill {
+.slider {
 	width: 600px;
 	margin: 0 auto;
-    float: left;
+  float: left;
 }
 
-#illdes {
+.description {
     background-color: #fafafa;
     width: 250px;
     height: 100%;
@@ -196,77 +195,45 @@ html {
 }
 
 .contact-info a {
-    text-decoration: none;
-    text-align: center;
-    color: #fff;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
 	font-size: 12px;
-    font-weight: 700;
+  font-weight: 700;
 	font-style: bold;
-	-webkit-transition: ease .75s all;
-	-moz-transition: ease .75s all;
-	-o-transition: ease .75s all;
 }
 
-.contact-info a:hover {
-    text-decoration: none;
-    text-align: center;
-    color: #fff;
-	font-size: 12px;
-    font-weight: 700;
-	font-style: bold;
-	opacity: 0.5;
-	-webkit-transition: ease .75s all;
-	-moz-transition: ease .75s all;
-	-o-transition: ease .75s all;
-}
-
-.contact-info p {
-	font-size: 12px;
-    letter-spacing: 1px;
-	font-style: normal;
-	line-height: 24px;
-	color: #fff;
-    text-align: justify;
-    padding: 20px 0 0 0;
-    border-top: none;
-}
 
 /* Footer */
 
-.iconwrap {
-    width: 160px;
-    height: 40px;
+.social {
     padding: 5px 0 5px 0;
-    margin: 0px auto;
 }
 
-#footer img {
+.icon {
   width: 40px;
+  opacity: .3;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.icon:hover {
   -webkit-transition: ease .75s all;
 	-moz-transition: ease .75s all;
 	-o-transition: ease .75s all;
+  opacity: .8;
 }
 
-.iconwrap a {
-    -webkit-transition: ease .75s all;
-	-moz-transition: ease .75s all;
-	-o-transition: ease .75s all;
-    opacity: .3;
-}
-
-.iconwrap a:hover {
-    -webkit-transition: ease .75s all;
-	-moz-transition: ease .75s all;
-	-o-transition: ease .75s all;
-    opacity: .8;
-}
-
-#footerinfo {
-  text-align: center;
+.email {
   padding: 25px 0 10px 0;
 }
 
-#buttontri {
+.top-text {
+  position: relative;
+  bottom: 3rem;
+}
+
+.buttontri {
   width: 0; 
   height: 0; 
   border-left: 30px solid transparent;
@@ -274,18 +241,11 @@ html {
   border-bottom: 30px solid black;
 	margin: 0 auto;
 	position: relative;
-	top: -25px;
+	top: -35px;
 }
 
 a:-webkit-any-link {
     text-decoration: none !important;
-}
-
-#bttbar {
-	height: 20px;
-	width: 100%;
-	background-color: #000;
-	margin: 0;
 }
     
 #footer {
@@ -323,7 +283,7 @@ a:-webkit-any-link {
   text-decoration: none;
   height: 61px;
   width: 38px;
-  background: transparent url("imgs/arrows.png") no-repeat left top;
+  background: transparent url("images/logo-wireframe.svg") no-repeat left top;
   margin-top: -45px;
   }
 
@@ -368,7 +328,7 @@ a:-webkit-any-link {
   top: 0;
   bottom: 0;
   left: 0;
-  background: transparent url("imgs/arrows2.png") no-repeat left 50%;
+  background: transparent ("images/logo-wireframe.svg") no-repeat left 50%;
   width: 38px;
   }
 
@@ -465,22 +425,18 @@ a:-webkit-any-link {
         padding: 75px 0 0 0;
     }
 
-    #ill {
+    .slider {
         width: auto;
         float: none;
     }
     
-    #illdes {
+    .description {
         background-color: #fafafa;
         width: auto;
         height: auto;
         float: none;
         padding: 10px 25px 25px 25px;
-        margin: -35px 0 0 0;
-    }
-
-    .cbout {
-        max-width:600px;
+        margin: -44px 0 0 0;
     }
 
 }
@@ -497,28 +453,22 @@ a:-webkit-any-link {
         padding: 0 0 0 0;
     }
 
-    #projects {
+    .projects {
         padding: 10px 0 0 0;
     }
 
-    #ill {
+    .slider {
         width: 100%;
         float: none;
     }
     
-    #illdes {
+    .description {
         background-color: #fafafa;
         width: auto;
         height: auto;
         float: none;
         padding: 10px 25px 75px 25px;
-        margin: -35px 0 0 0;
-    }
-
-
-    .cbout {
-        max-width:100%;
-        padding: 0 25px 0 25px;
+        margin: -44px 0 0 0;
     }
 
     
