@@ -1,5 +1,5 @@
 html {
-  font: normal 100%/1.5,serif;
+  font: normal 100%/1.5;
 }
 
 @media only screen and (min-width: 60em) {
@@ -51,11 +51,13 @@ p {
 h1, .exa {
   font-size: 1.8020rem;
   line-height: 1.6648;
+  font-family: 'Roboto Slab', serif;
 }
 
 h2, .peta {
   font-size: 1.6018rem;
   line-height: 1.8729;
+  font-family: 'Roboto Slab', serif;
 }
 
 h3, .tera {
