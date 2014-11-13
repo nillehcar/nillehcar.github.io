@@ -73,3 +73,21 @@ $('#footer').localScroll();
     $(".rslides").responsiveSlides();
   });
     
+
+$('.pieces a').on('click',function(eventObject){
+    eventObject.preventDefault();
+    var id = $(this).attr('href');
+    var container = $(id);
+    var isOpen = container.attr('data-state');
+
+    $('.projectcontainer[data-state="open"]').attr('data-state','closed');
+
+    if (isOpen == 'open'){
+        container.attr('data-state','closed');
+    } else {
+        container.attr('data-state','open');
+
+    }
+})
+
+
