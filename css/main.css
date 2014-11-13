@@ -25,11 +25,11 @@ a:-webkit-any-link {
 
 /* Nav */
 .logo {
-  width: 6rem;
+  width: 8rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 1rem;
+  padding-bottom: .5rem;
   padding-top: 1rem;
 }
 
@@ -45,9 +45,8 @@ a:-webkit-any-link {
 
 @media only screen and (min-width: 50em) {
   .logo {
-    width: 6.5em;
     margin-right: 0;
-    margin-top: -2rem;
+    margin-top: -3rem;
     float: left;
     padding-left: 16%;
   }
@@ -99,7 +98,7 @@ a:-webkit-any-link {
 .grid {
   overflow: hidden;
   clear: both;
-  margin-left: 40px;
+  padding-left: 1.5rem;
 }
 
 .unit {
@@ -115,11 +114,11 @@ a:-webkit-any-link {
   width: 40%;
 }
 
-@media only screen and (min-width:35em) {
+@media only screen and (min-width:40em) {
   
   .grid {
     width: 70%;
-    margin-left: 15%;
+    margin-left: 13%;
   }
 
   .unit-m-1-2 {
@@ -275,7 +274,6 @@ a:-webkit-any-link {
 }
 
 .copy {
-  font-family: 'Roboto Slab', serif;
   color: #757575;
   padding-top: 2rem;
 }
@@ -465,8 +463,6 @@ a:-webkit-any-link {
       background-color: #fafafa;
       padding-top: 1rem;
     }
-
-
 
 }
 
