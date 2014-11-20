@@ -133,7 +133,7 @@ a:-webkit-any-link {
 .grid {
   overflow: hidden;
   clear: both;
-  padding-left: 3rem;
+  padding-left: 1.5rem;
   padding-top: 2rem;
 }
 
@@ -150,17 +150,33 @@ a:-webkit-any-link {
   width: 40%;
 }
 
-@media only screen and (min-width:40em) {
+@media only screen and (min-width:20em) {
+    .grid {
+      padding-left: 2.5rem
+    }
+
+}
+
+
+@media only screen and (min-width:28em) {
+    .grid {
+      padding-left: 4.5rem
+    }
+
+}
+
+@media only screen and (min-width:42em) {
   
   .grid {
     width: 70%;
-    margin-left: 13%;
+    padding-left: 17%;
   }
 
   .unit-m-1-2 {
     width: 45%;
   }
 }
+
 
 @media only screen and (min-width:80em) {
 
@@ -229,10 +245,6 @@ a:-webkit-any-link {
   max-height: 35em;
 }
 
-xprojectfirst {
-    padding-top: 5px !important;
-}
-
 .slider {
 	width: 600px;
 	margin: 0 auto;
@@ -251,87 +263,6 @@ xprojectfirst {
   padding-top: 1rem;
 }
 
-/* Contact */
-#contact {
-    background-color: #DBDBDB;
-    height: auto;
-    width: 100%;
-    padding: 75px 0 75px 0;
-}
-
-.contact-info {
-	height: auto;
-	margin: 0 auto;
-	padding: 0 40px 0 40px;
-	max-width:700px;
-  text-align: justify;
-}
-
-.contact-info a {
-  text-decoration: none;
-  text-align: center;
-  color: #fff;
-	font-size: 12px;
-  font-weight: 700;
-}
-
-
-/* Footer */
-
-.icon {
-  width: 40px;
-  opacity: .3;
-  padding-left: .5rem;
-  padding-right: .5rem;
-}
-
-.icon:hover {
-  -webkit-transition: ease .75s all;
-	-moz-transition: ease .75s all;
-	-o-transition: ease .75s all;
-  opacity: .8;
-}
-
-.email {
-  padding: 25px 0 10px 0;
-}
-
-.top-text {
-  position: relative;
-  bottom: 3rem;
-  color: #fff;
-  opacity: .3;
-}
-
-.top-text:hover {
-  -webkit-transition: ease .75s all;
-  -moz-transition: ease .75s all;
-  -o-transition: ease .75s all;
-  opacity: .8;
-}
-
-.buttontri {
-  width: 0; 
-  height: 0; 
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  border-bottom: 30px solid black;
-	margin: 0 auto;
-	position: relative;
-	top: -35px;
-}
-    
-#footer {
-  height: auto;
-  width: 100%;
-  background-color: #000;
-  padding: 10px 0px 10px 0px;
-}
-
-.copy {
-  color: #757575;
-  padding-top: 2rem;
-}
 
 /* Slider */
 .slide-img {
@@ -346,7 +277,7 @@ xprojectfirst {
   margin: 0 auto;
   position: relative;
   float: none;
-  width: 600px; /*give 100% respon*/
+  width: 600px;
   }
 
 .centered-btns_nav {
@@ -383,7 +314,7 @@ xprojectfirst {
   top: 0;
   left: 0;
   display: block;
-  background: #fff; /* Fix for IE6-9 */
+  background: #fff;
   opacity: 0;
   width: 48%;
   text-indent: -9999px;
@@ -478,12 +409,12 @@ xprojectfirst {
 /* Clear Fix */
 .clearfix:before,
 .clearfix:after {
-	content: " ";
-	display: table;
+  content: " ";
+  display: table;
 }
 
 .clearfix:after {
-	clear:both;
+  clear:both;
 }
 
 @media (min-width: 600px) and (max-width: 1024px) {
@@ -495,7 +426,9 @@ xprojectfirst {
     .projectcontainer {
         width: 600px;
         height: auto;
-        padding: 75px 0 0 0;
+        padding: 5px 0 0 0;
+        left: 50%;
+        margin-left: -300px;
     }
 
     .slider {
@@ -558,6 +491,127 @@ xprojectfirst {
     }
 
     
+}
+
+
+
+/* Contact */
+#contact {
+    background-color: #DBDBDB;
+    height: auto;
+    width: 100%;
+    padding: 75px 0 75px 0;
+}
+
+.contact-info {
+	height: auto;
+	margin: 0 auto;
+	padding: 0 40px 0 40px;
+	max-width:700px;
+  text-align: justify;
+}
+
+
+.email h2::before,
+.email h2::after {
+  display: inline-block;
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+  -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+  transition: transform 0.3s, opacity 0.2s;
+}
+
+.email h2::before {
+  margin-right: 10px;
+  content: '[';
+  -webkit-transform: translateX(20px);
+  -moz-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+.email h2::after {
+  margin-left: 10px;
+  content: ']';
+  -webkit-transform: translateX(-20px);
+  -moz-transform: translateX(-20px);
+  transform: translateX(-20px);
+}
+
+.email h2:hover::before,
+.email h2:hover::after,
+.email h2:focus::before,
+.email h2:focus::after {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  transform: translateX(0px);
+}
+
+
+.email {
+  padding: 25px 0 10px 0;
+}
+
+.email h2 {
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+
+/* Footer */
+
+.icon {
+  width: 40px;
+  opacity: .3;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.icon:hover {
+  -webkit-transition: ease .75s all;
+	-moz-transition: ease .75s all;
+	-o-transition: ease .75s all;
+  opacity: .8;
+}
+
+.top-text {
+  position: relative;
+  bottom: 3rem;
+  color: #fff;
+  opacity: .3;
+}
+
+.top-text:hover {
+  -webkit-transition: ease .75s all;
+  -moz-transition: ease .75s all;
+  -o-transition: ease .75s all;
+  opacity: .8;
+}
+
+.buttontri {
+  width: 0; 
+  height: 0; 
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid black;
+	margin: 0 auto;
+	position: relative;
+	top: -35px;
+}
+    
+#footer {
+  height: auto;
+  width: 100%;
+  background-color: #000;
+  padding: 10px 0px 10px 0px;
+}
+
+.copy {
+  color: #757575;
+  padding-top: 2rem;
 }
 
 /* 404 */

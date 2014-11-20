@@ -15,7 +15,7 @@
         nav: true,
         speed: 400,
         maxwidth: 800,
-        namespace: "centered-btns"
+        namespace: "large-btns"
     });
     
     $("#slider3").responsiveSlides({
@@ -60,7 +60,16 @@
         nav: true,
         speed: 400,
         maxwidth: 800,
-        namespace: "centered-btns"
+        namespace: "large-btns"
+    });
+
+    $("#slider8").responsiveSlides({
+        auto: false,
+        pager: true,
+        nav: true,
+        speed: 400,
+        maxwidth: 800,
+        namespace: "large-btns"
     });
    
 });   
@@ -90,4 +99,9 @@ $('.pieces a').on('click',function(eventObject){
     }
 })
 
-
+$('.pieces a').click(function() {
+    $('#contact').animate({
+        'marginTop' : "30%"
+        });
+ });
+    
