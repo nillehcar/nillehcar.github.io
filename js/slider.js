@@ -101,7 +101,7 @@ $('.pieces a').on('click',function(eventObject){
 
 $('.pieces a').click(function() {
     $('#contact').animate({
-        'marginTop' : "30%"
+        'marginTop' : "31rem"
         });
  });
     
