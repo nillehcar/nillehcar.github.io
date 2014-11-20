@@ -81,7 +81,8 @@ $('#footer').localScroll();
   $(function() {
     $(".rslides").responsiveSlides();
   });
-    
+
+
 
 $('.pieces a').on('click',function(eventObject){
     eventObject.preventDefault();
@@ -93,15 +94,14 @@ $('.pieces a').on('click',function(eventObject){
 
     if (isOpen == 'open'){
         container.attr('data-state','closed');
+        $('#contact').animate({
+            'marginTop' : "0rem"
+        });
     } else {
         container.attr('data-state','open');
-
+        $('#contact').animate({
+            'marginTop' : "31rem"
+        });
     }
 })
-
-$('.pieces a').click(function() {
-    $('#contact').animate({
-        'marginTop' : "31rem"
-        });
- });
     
