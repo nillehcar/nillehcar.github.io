@@ -568,9 +568,10 @@ a:-webkit-any-link {
 
 .top-text {
   position: relative;
-  bottom: 3rem;
+  bottom: 2.75rem;
   color: #fff;
   opacity: .3;
+  font-size: 10px;
 }
 
 .top-text:hover {
