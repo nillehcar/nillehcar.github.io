@@ -174,10 +174,6 @@ a:-webkit-any-link {
     width: 70%;
   }
 
-  .gutter {
-    padding: 1rem;
-  }
-
   .unit-l-1-4 {
     width: 25%;
   }
@@ -199,6 +195,8 @@ a:-webkit-any-link {
   color: #fff;
   padding-top: 1em;
   padding-bottom: 1em;
+  padding-left: .5em;
+  padding-right: .5em;
   position: absolute;
   bottom: -7em;
   width: 100%;
@@ -612,6 +610,73 @@ a:-webkit-any-link {
 .copy {
   color: #757575;
   padding-top: 2rem;
+}
+
+
+/* 404 ------------------------------------------- */
+
+.oops {
+   background-color: #191526;
+}
+
+.oopstext {
+  color: #fff;
+}
+
+.white {
+  color: #fff;
+}
+.guy {
+  display: block;
+  width: 20em;
+  padding-top: 10%;
+}
+
+.nav-list-white {
+  text-align: center;
+  padding-top: .5rem;
+  padding-left: 0;
+  margin: 0;
+  color: #fff;
+}
+
+.nav-list-white a {
+  color: #fff;
+}
+
+.nav-list-white a::before,
+.nav-list-white a::after {
+  display: inline-block;
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+  -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+  transition: transform 0.3s, opacity 0.2s;
+}
+
+.nav-list-white a::before {
+  margin-right: 10px;
+  content: '[';
+  -webkit-transform: translateX(20px);
+  -moz-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+.nav-list-white a::after {
+  margin-left: 10px;
+  content: ']';
+  -webkit-transform: translateX(-20px);
+  -moz-transform: translateX(-20px);
+  transform: translateX(-20px);
+}
+
+.nav-list-white a:hover::before,
+.nav-list-white a:hover::after,
+.nav-list-white a:focus::before,
+.nav-list-white a:focus::after {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  transform: translateX(0px);
 }
 
 
