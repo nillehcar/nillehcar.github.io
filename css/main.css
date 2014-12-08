@@ -505,7 +505,6 @@ a:-webkit-any-link {
 	margin: 0 auto;
 	padding: 0 40px 0 40px;
 	max-width:700px;
-  text-align: justify;
 }
 
 
@@ -552,7 +551,7 @@ a:-webkit-any-link {
 .email h2 {
   text-decoration: none;
   text-align: center;
-  color: #fff;
+  color: #181425;
   font-size: 1rem;
   font-weight: 700;
 }
@@ -616,36 +615,18 @@ a:-webkit-any-link {
 /* 404 ------------------------------------------- */
 
 .oops {
-   background-color: #191526;
+   background-color: #737390;
 }
 
-.oopstext {
-  color: #fff;
-}
-
-.white {
-  color: #fff;
-}
 .guy {
   display: block;
+  margin: 0 auto;
   width: 20em;
-  padding-top: 10%;
+  padding-top: 5rem;
 }
 
-.nav-list-white {
-  text-align: center;
-  padding-top: .5rem;
-  padding-left: 0;
-  margin: 0;
-  color: #fff;
-}
-
-.nav-list-white a {
-  color: #fff;
-}
-
-.nav-list-white a::before,
-.nav-list-white a::after {
+.white-link::before,
+.white-link::after {
   display: inline-block;
   opacity: 0;
   -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
@@ -653,7 +634,7 @@ a:-webkit-any-link {
   transition: transform 0.3s, opacity 0.2s;
 }
 
-.nav-list-white a::before {
+.white-link::before {
   margin-right: 10px;
   content: '[';
   -webkit-transform: translateX(20px);
@@ -661,7 +642,7 @@ a:-webkit-any-link {
   transform: translateX(20px);
 }
 
-.nav-list-white a::after {
+.white-link::after {
   margin-left: 10px;
   content: ']';
   -webkit-transform: translateX(-20px);
@@ -669,14 +650,13 @@ a:-webkit-any-link {
   transform: translateX(-20px);
 }
 
-.nav-list-white a:hover::before,
-.nav-list-white a:hover::after,
-.nav-list-white a:focus::before,
-.nav-list-white a:focus::after {
+.white-link:hover::before,
+.white-link:hover::after,
+.white-link:focus::before,
+.white-link:focus::after {
   opacity: 1;
   -webkit-transform: translateX(0px);
   -moz-transform: translateX(0px);
   transform: translateX(0px);
 }
-
 

@@ -118,3 +118,7 @@ small, .milli {
 .justify {
   text-align: justify;
 }
+
+.white {
+  color: #fff;
+}
