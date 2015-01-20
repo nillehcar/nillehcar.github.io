@@ -33,12 +33,16 @@ a:-webkit-any-link {
 
 /* Nav ------------------------------------------- */
 .logo {
-  width: 8rem;
+  width: 14rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: .5rem;
-  padding-top: 1rem;
+  padding-bottom: rem;
+  padding-top: 2rem;
+}
+
+h1{
+  display: none;
 }
 
 .nav-list {
@@ -103,7 +107,7 @@ a:-webkit-any-link {
     margin-right: 0;
     margin-top: -3rem;
     float: left;
-    margin-left: 16%;
+    margin-left: 15%;
   }
 
   .nav {
@@ -114,7 +118,7 @@ a:-webkit-any-link {
   h1 {
   float: left;
   padding-top: .25rem;
-  padding-left: 1rem;
+  margin-right: 3rem;
    }
 }
 
