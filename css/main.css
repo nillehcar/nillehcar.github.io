@@ -99,7 +99,8 @@ h1{
   padding: 1rem;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 14px;
+  letter-spacing: 2px;
 }
 
 @media only screen and (min-width: 50em) {
@@ -558,6 +559,7 @@ h1{
   color: #181425;
   font-size: 1rem;
   font-weight: 700;
+  letter-spacing: 2px;
 }
 
 
