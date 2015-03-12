@@ -37,6 +37,7 @@ p {
   font-size: 12px;
   line-height: 22px;
   letter-spacing: 1px;
+  color: #636363;
 }
 
 .yotta {
@@ -52,11 +53,11 @@ p {
 h1, .exa {
   font-size: 1.8020rem;
   line-height: 1.6648;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Raleway', serif;
 }
 
 h2, .peta {
-  font-size: 1.6018rem;
+  font-size: 22px;
   line-height: 1.8729;
   font-family: 'Roboto Slab', serif;
 }
