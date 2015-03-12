@@ -60,6 +60,7 @@ h2, .peta {
   font-size: 22px;
   line-height: 1.8729;
   font-family: 'Roboto Slab', serif;
+  font-weight: 100;
 }
 
 h3, .tera {
@@ -122,4 +123,8 @@ small, .milli {
 
 .white {
   color: #fff;
+}
+
+.black {
+  color: #101820;
 }
