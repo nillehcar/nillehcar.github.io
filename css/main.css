@@ -267,7 +267,7 @@ h1{
 }
 
 .projectcontainer[data-state="open"] {
-  max-height: 35em;
+  max-height: 40em;
   padding-bottom: 5em;
 }
 
@@ -313,7 +313,6 @@ h1{
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   top: 50%;
   left: 0;
-  opacity: 0.7;
   text-indent: -9999px;
   overflow: hidden;
   text-decoration: none;
@@ -357,7 +356,6 @@ h1{
 .large-btns_nav {
   z-index: 3;
   position: absolute;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
   opacity: 0.6;
   text-indent: -9999px;
   overflow: hidden;
@@ -367,7 +365,11 @@ h1{
   width: 38px;
   }
 
-.large-btns_nav:active {
+.large-btns_nav:active,
+.large-btns_nav:hover {
+  -webkit-transition: ease 500ms all;
+  -moz-transition: ease 500ms all;
+  -o-transition: ease 500ms all;
   opacity: 1.0;
   }
 
