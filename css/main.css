@@ -30,6 +30,10 @@ a:-webkit-any-link {
   width: 100%;
 }
 
+::selection {
+  background: #7ae1bf;
+}
+
 /* Nav ------------------------------------------- */
 
 .logo {
