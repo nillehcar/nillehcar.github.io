@@ -50,7 +50,7 @@
         pager: true,
         nav: true,
         speed: 400,
-        maxwidth: 600,
+        maxwidth: 800,
         namespace: "large-btns"
     });
     
