@@ -267,23 +267,32 @@ h1{
 
 .graphic figcaption {
   text-align: center;
-  background-color: rgba(0,0,0,0.7);
-  font-size: 12px;
-  letter-spacing: 1.5px;
+  background-color: rgba(0,0,0,0.0);
+  font-size: 17px;
+  display: block;
+  letter-spacing: 1px;
+  height: 100%;
+  font-family: 'Roboto slab';
+  padding-top: 4rem;
+  padding-left: 1em;
+  padding-right: 1em;
   color: #fff;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  padding-left: .5em;
-  padding-right: .5em;
   position: absolute;
-  bottom: -7em;
   width: 100%;
-  transition: all 400ms linear;
+  transition: all 100ms linear;
 }
 
 .graphic:hover figcaption {
   bottom: .25rem;
+  background-color: rgba(0,0,0,0.8);
 }
+
+.tag {
+  font-size: 11px;
+  padding-top: 1em;
+  color: #ccc;
+}
+
 
 /* Projects */
 
