@@ -268,18 +268,35 @@ h1{
 .graphic figcaption {
   text-align: center;
   background-color: rgba(0,0,0,0.0);
-  font-size: 17px;
+  font-size: 15px;
   display: block;
   letter-spacing: 1px;
   height: 100%;
   font-family: 'Roboto slab';
-  padding-top: 4rem;
+  font-weight: 100;
+  padding-top: 2rem;
   padding-left: 1em;
   padding-right: 1em;
   color: #fff;
   position: absolute;
   width: 100%;
   transition: all 100ms linear;
+}
+
+@media only screen and (min-width:50em) {
+
+  .graphic figcaption {
+   padding-top: 5rem;
+    }
+}
+
+@media only screen and (min-width:80em) {
+
+
+  .graphic figcaption {
+   padding-top: 4rem;
+    font-size: 17px;
+    }
 }
 
 .graphic:hover figcaption {
@@ -313,12 +330,20 @@ h1{
 }
 
 .project-wrapper {
+  padding: 0 0 5px 0;
+}
+
+@media only screen and(min-width: 50em) {
+
+  .project-wrapper {
   padding: 0 0 75px 0;
+}
+
 }
 
 .projectcontainer[data-state="open"] {
   max-height: 40em;
-  padding-bottom: 5em;
+  padding-bottom: 45em;
 }
 
 .slider {
@@ -605,6 +630,39 @@ h1{
 
 }
 
+/* close-btn ------------------------------------------- */
+
+.close {
+  clear: both;
+  text-align: center;
+}
+
+.close-btn {
+    border:none;
+    background-color: transparent;
+    text-indent: 100%;
+    padding: 0;
+    margin-top: .5rem;
+    text-align: center;
+    cursor: pointer;
+    background-image: url(../images/close-btn.svg);
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+
+@media only screen and (min-width: 60em){
+  
+  .close-btn {
+      margin-top: 1.5rem;
+      margin-right: 34%;
+  }
+
+}
+
+button:focus {
+    outline:0;
+}
 
 /* Contact ------------------------------------------- */
 
