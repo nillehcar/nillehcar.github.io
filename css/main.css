@@ -576,7 +576,7 @@ h1{
         height: auto;
         padding: 40px 0 0 0;
         left: 50%;
-        margin-left: -540px;
+        margin-left: -525px;
     }
 
     .description {
@@ -659,6 +659,16 @@ h1{
   }
 
 }
+
+@media only screen and (min-width: 95em){
+  
+  .close-btn {
+      margin-top: 1.5rem;
+      margin-right: 50%;
+  }
+
+}
+
 
 button:focus {
     outline:0;
