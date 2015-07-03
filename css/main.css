@@ -272,12 +272,10 @@ h1{
   display: block;
   letter-spacing: 1px;
   height: 100%;
-  font-family: 'Roboto slab';
+  font-family: 'Roboto Slab';
   font-weight: 100;
-  padding-top: 2rem;
-  padding-left: 1em;
-  padding-right: 1em;
-  color: #fff;
+  text-indent: -1000px;
+  color: #000;
   position: absolute;
   width: 100%;
   transition: all 100ms linear;
@@ -301,13 +299,11 @@ h1{
 
 .graphic:hover figcaption {
   bottom: .25rem;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(255,255,255,0.4);
 }
 
 .tag {
-  font-size: 11px;
-  padding-top: 1em;
-  color: #ccc;
+  display: none;
 }
 
 
