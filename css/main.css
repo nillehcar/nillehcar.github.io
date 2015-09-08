@@ -256,6 +256,7 @@ embed {
 
 .project-grid {
   padding-top: 1rem;
+  width: 86%;
 }
 
 .proj-desc {
@@ -312,9 +313,6 @@ embed {
     padding-right: 19%;
   }
 
-  .project-grid {
-    width: 88%;
-  }
 }
 
 .icon {
