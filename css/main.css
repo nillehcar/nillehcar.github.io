@@ -256,7 +256,6 @@ embed {
 
 .project-grid {
   padding-top: 1rem;
-  width: 86%;
 }
 
 .proj-desc {
@@ -269,6 +268,12 @@ embed {
     width: 50%;
   }
 
+}
+
+
+@media only screen and (min-width: 95em) {
+    .project-grid {
+      width: 86%;}
 }
 
 /* CONTACT ----------------*/
