@@ -276,6 +276,25 @@ embed {
       width: 86%;}
 }
 
+.back-btn a {
+  color: #000;
+  letter-spacing: 1px;
+}
+
+.back-btn {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.back-btn a:hover,
+.back-btn a:active {
+  color: #aaa;
+  -webkit-transition: ease 400ms all;
+  -moz-transition: ease 400ms all;
+  -o-transition: ease 400ms all;
+}
+
+
 /* CONTACT ----------------*/
 #contact {
   padding: 5em 0;
