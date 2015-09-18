@@ -170,7 +170,7 @@ embed {
 }
 
 .wrapper {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   padding-top: 8%;
 }
@@ -239,6 +239,11 @@ embed {
 
 .project-grid{
   margin: 0 auto;
+}
+
+
+.proj-desc {
+  padding-bottom: 1rem;
 }
 
 .unit {
