@@ -205,6 +205,10 @@ embed {
 
 @media (min-width: 45em){
 
+  .wrapper {
+  width: 70%;
+}
+
 .image-grid a:nth-child(6n+1),
 .image-grid a:nth-child(6n+2),
 .image-grid a:nth-child(6n+6) {
