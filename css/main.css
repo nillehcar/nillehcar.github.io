@@ -361,3 +361,64 @@ embed {
   -o-transition: ease .75s all;
   opacity: .9;
 }
+
+/*COVER ------------*/
+@font-face {
+    font-family: apercu;
+    src: url(fonts/apercu-regular.otf);
+}
+
+.cover {
+  background-color: #ffdcdc;
+  width: 100%;
+}
+
+.pink-txt {
+ position: absolute;
+  width: 300px;
+  height: 100px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+}
+
+.p-email {
+  font-size: 30px;
+  color: #f74d4d;
+  font-family: 'apercu', sans-serif;
+  text-align: center;
+  display: inherit;
+}
+
+.p-email:hover {
+  opacity: .7;
+  -webkit-transition: ease 500ms all;
+  -moz-transition: 500ms .75s all;
+  -o-transition: 500ms .75s all;
+
+}
+
+.cover-social {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.cover-social li {
+  display: inline-block;
+  padding: 0 .5rem;
+}
+
+.fa {
+  color: #f74d4d;
+  opacity: .5;
+}
+
+.fa:hover {
+  opacity: .9;
+  -webkit-transition: ease 500ms all;
+  -moz-transition: 500ms .75s all;
+  -o-transition: 500ms .75s all;
+}
+}
