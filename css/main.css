@@ -365,7 +365,7 @@ embed {
 /*COVER ------------*/
 @font-face {
     font-family: "apercu";
-    src: url(fonts/apercu-regular.ttf) format("truetype");
+    src: url(../fonts/apercu-regular.ttf) format("truetype");
 }
 
 .cover {
