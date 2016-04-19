@@ -362,6 +362,25 @@ embed {
   opacity: .9;
 }
 
+/*404 ------------*/
+.guy-wrapper {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -200px 0 0 -150px;
+}
+.guy:hover {
+  opacity: .8;
+  -webkit-transition: ease 500ms all;
+  -moz-transition: ease 500ms all;
+  -o-transition: ease 500ms all;
+
+}
+
+
 /*COVER ------------*/
 @font-face {
     font-family: "apercu";
@@ -394,8 +413,8 @@ embed {
 .p-email:hover {
   opacity: .7;
   -webkit-transition: ease 500ms all;
-  -moz-transition: 500ms .75s all;
-  -o-transition: 500ms .75s all;
+  -moz-transition: ease 500ms all;
+  -o-transition: ease 500ms all;
 
 }
 
