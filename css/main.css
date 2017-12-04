@@ -394,28 +394,35 @@ embed {
 
 .pink-txt {
  position: absolute;
-  width: 300px;
+  width: 400px;
   height: 100px;
   z-index: 15;
   top: 50%;
   left: 50%;
-  margin: -50px 0 0 -150px;
+  margin: -50px 0 0 -200px;
 }
 
-.p-email {
-  font-size: 30px;
+.p-link {
+  font-size: 25px;
   color: #f74d4d;
   font-family: 'apercu', sans-serif;
-  text-align: center;
-  display: inherit;
 }
 
-.p-email:hover {
+.p-link:hover {
   opacity: .7;
   -webkit-transition: ease 500ms all;
   -moz-transition: ease 500ms all;
   -o-transition: ease 500ms all;
 
+}
+
+.p-txt {
+  font-size: 25px;
+  color: #ff9494;
+  font-family: 'apercu', sans-serif;
+  text-align: center;
+  display: inherit;
+  line-height: 2rem;
 }
 
 .cover-social {
