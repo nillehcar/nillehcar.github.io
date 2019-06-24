@@ -1,0 +1,22 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+background-image: url("../images/ftd/dashboard-ott-2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100%;
+ margin: 0;
+ padding: 0;
+}
+
+@media screen and (min-device-width: 1200px) {
+
+	.bg {
+	background-image: url("../images/ftd/dashboard-ott-1.png");
+}
+}
