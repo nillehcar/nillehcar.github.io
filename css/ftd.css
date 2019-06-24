@@ -39,3 +39,37 @@ background-image: url("../images/ftd/dashboard-to-2.png");
 	background-image: url("../images/ftd/dashboard-to-1.png");
 }
 }
+
+.bg-mtl {
+background-image: url("../images/ftd/dashboard-mtl-2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100%;
+ margin: 0;
+ padding: 0;
+}
+
+@media screen and (min-device-width: 1200px) {
+
+	.bg-mtl {
+	background-image: url("../images/ftd/dashboard-mtl-1.png");
+}
+}
+
+.bg-wtl {
+background-image: url("../images/ftd/dashboard-wtl-2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100%;
+ margin: 0;
+ padding: 0;
+}
+
+@media screen and (min-device-width: 1200px) {
+
+	.bg-mtl {
+	background-image: url("../images/ftd/dashboard-wtl-1.png");
+}
+}
