@@ -20,3 +20,22 @@ background-image: url("../images/ftd/dashboard-ott-2.png");
 	background-image: url("../images/ftd/dashboard-ott-1.png");
 }
 }
+
+
+
+.bg-to {
+background-image: url("../images/ftd/dashboard-to-2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100%;
+ margin: 0;
+ padding: 0;
+}
+
+@media screen and (min-device-width: 1200px) {
+
+	.bg-to {
+	background-image: url("../images/ftd/dashboard-to-1.png");
+}
+}
